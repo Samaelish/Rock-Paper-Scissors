@@ -3,25 +3,25 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 18px; /* increased font size for better readability on mobile */
+  font-size: 18px;
 }
 
 #choices {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 2em; /* increased margin for better spacing on mobile */
+  margin-bottom: 2em;
 }
 
 #choices button {
   background-color: #4caf50;
   color: #fff;
-  padding: 1.5em 3em; /* increased padding for bigger buttons on mobile */
+  padding: 1.5em 3em;
   border: none;
-  border-radius: 0.5em; /* increased border radius for rounded corners on mobile */
+  border-radius: 0.5em;
   cursor: pointer;
-  margin: 1.5em; /* increased margin for better spacing on mobile */
-  font-size: 1.2em; /* increased font size for better readability on mobile */
+  margin: 1.5em;
+  font-size: 1.2em;
 }
 
 #choices button:hover {
@@ -33,10 +33,9 @@ body {
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
 }
 
-/* Media query to make buttons even bigger on smaller mobile devices */
 @media only screen and (max-width: 480px) {
   #choices button {
-    padding: 2em 4em; /* even bigger buttons on smaller mobile devices */
-    font-size: 1.5em; /* even bigger font size on smaller mobile devices */
+    padding: 2em 4em;
+    font-size: 1.5em;
   }
 }
